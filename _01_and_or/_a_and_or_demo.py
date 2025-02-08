@@ -24,11 +24,6 @@ if __name__ == '__main__':
 
     name = simpledialog.askstring(None, "What is your name?")
 
-    if name == 'Sally' or name == 'Sue':
-        messagebox.showinfo(None, 'Your name is either Sally or Sue!')
-    else:
-        messagebox.showwarning(None, 'Your name is NOT Sally or Sue')
-
     age = simpledialog.askinteger(None, "How old are you?")
     height_inches = simpledialog.askinteger(None, "What is your height in inches?")
 
