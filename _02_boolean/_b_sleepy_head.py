@@ -4,6 +4,7 @@ paths.
 """
 
 from tkinter import messagebox
+import turtle
 if __name__ == '__main__':
     # TODO)
     #  1. Use a boolean variable to indicate if it is the weekend.
@@ -19,7 +20,27 @@ if __name__ == '__main__':
     #     variables are true, use a turtle to draw a red square.
     isWeekend = True
     if isWeekend:
-        messagebox.showinfo
+        print("YAY! IT IS THE WEEKEND!")
     else:
-        pass
+        print("IT IS TIME FOR MADDOX TO SAY THAT IT IS THE WEEKEND!")
+
+    pass_exam = True
+    if pass_exam:
+        print("GOOD JOB, MISTER!")
+    else:
+        print("YOU ARE BAD!")
+
+    game_over = True
+    if game_over:
+        print("GAME OVER!")
+    Bob = turtle.Turtle()
+    red_color = True
+    square = True
+    if red_color and square:
+        Bob.color('red')
+        for i in range(4):
+            Bob.forward(50)
+            Bob.left(90)
+
+
 

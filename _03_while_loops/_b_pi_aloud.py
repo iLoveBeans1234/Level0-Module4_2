@@ -17,8 +17,8 @@ if __name__ == '__main__':
 
     # TODO) Use a while loop to keep asking for the next digit of pi
 
-        # TODO) If they are correct, print "correct".
-        #  If they are not, print "incorrect" and break out of the while loop
+    # TODO) If they are correct, print "correct".
+    #  If they are not, print "incorrect" and break out of the while loop
 
 
     # TODO) Print out how many digits of pi the user was able to recite
